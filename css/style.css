@@ -1,0 +1,20 @@
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Moon Dance', cursive;
+font-family: 'Pacifico', cursive;
+*/
+
+/* ======== Variables ========== */
+:root{
+    --header-height: 3rem;
+
+    /* ======= Colors =========== */
+    /* Decide your browser theme */
+    --hue-color: 230;
+
+    /* HSL COLOR MODE */
+    --first-color: hsl(var(--hue-color), 69%, 58%);
+    --first-color-second: hsl(var(--hue-color), 71%, 47%);
+    
+
+}
