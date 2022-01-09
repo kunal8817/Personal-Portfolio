@@ -15,6 +15,17 @@ font-family: 'Pacifico', cursive;
     /* HSL COLOR MODE */
     --first-color: hsl(var(--hue-color), 69%, 58%);
     --first-color-second: hsl(var(--hue-color), 71%, 47%);
-    
+    --first-color-alt: hsl(var(--hue-color), 55%, 50%);
+    --first-color-lighter: hsl(var(--hue-color), 90%, 82%);
 
+    --title-color: hsl(var(--hue-color), 10%, 15%);
+    --text-color: hsl(var(--hue-color), 10%, 40%);
+    --mainText: hsl(var(--hue-color), 10%, 20%);
+    --text-color-light: hsl(var(--hue-color), 10%, 65%);
+    --input-color: hsl(var(--hue-color), 70%, 88%);
+    --body-color: hsl(var(--hue-color), 66%, 99%);
+    --container-color: #FFF;
+    --scroll-bar-color: hsl(var(--hue-color), 15%, 85%);
+    --scroll-thumb-color: hsl(var(--hue-color), 15%, 70%);
+    --gradient-color: linear-gradient(140deg, rgba(93,72,199,1) 0%, rgba(94,91,201,1) 40%, rgba(101,125,157,1) 100%);
 }
