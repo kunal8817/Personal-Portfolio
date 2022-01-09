@@ -72,3 +72,22 @@
     }
     
 }
+
+/* ======== Variable Color for Dark theme ============= */
+body.dark-theme{
+    /* HSL COLOR MODE */
+    --first-color: hsl(var(--hue-color), 69%, 58%);
+    --first-color-second: hsl(var(--hue-color), 30%, 8%);
+    --first-color-alt: hsl(var(--hue-color), 55%, 50%);
+    --first-color-lighter: hsl(var(--hue-color), 90%, 82%);
+
+    --title-color: hsl(var(--hue-color), 10%, 95%);
+    --text-color: hsl(var(--hue-color), 10%, 75%);
+    --mainText: hsl(var(--hue-color), 10%, 74%);
+    --text-color-light: hsl(var(--hue-color), 10%, 65%);
+    --input-color: hsl(var(--hue-color), 29%, 61%);
+    --body-color: hsl(var(--hue-color), 30%, 14%);
+    --container-color: #FFF;
+    --scroll-bar-color: hsl(var(--hue-color), 10%, 50%);
+    --scroll-thumb-color: hsl(var(--hue-color), 15%, 34%);
+}
